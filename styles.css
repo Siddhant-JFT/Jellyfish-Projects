@@ -1,5 +1,5 @@
 *{
-    font-family: 'Coming Soon', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 #section-2{
     width: 80%;
@@ -88,4 +88,78 @@
     margin-top: 10px;
     padding: 30px 20px 0 20px;
     border: 1px solid #999;
+}
+.part-upper{
+    padding: 10px;
+    background-color: white;
+}
+.part-lower{
+    height: 50vh;
+    background-color: black;
+}
+.bg-black{
+    background-color: black;
+}
+form{
+    position: relative;
+    top: -40px;
+    
+}
+footer .texts{
+    padding-bottom: 20px;
+}
+input{
+    outline:none;
+}
+.input-groups{
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 33% 33% 33%;
+}
+.input-groups label{
+    display: block;
+    margin-bottom: 2px;
+}
+.input-groups input{
+    width: 90%;
+    border: none;border-bottom: 1px solid #999;
+}
+.project-desc{
+    width: 100%;
+    padding: 20px;
+}
+.project-desc *{
+    display: block;
+    width: 100%;
+}
+.project-desc input{
+    border: none;
+    border-bottom: 1px solid #999;
+}
+.customButton{
+    display: flex;
+    width: 95%;
+    justify-content: flex-end;
+}
+.customButton button{
+    color: white;
+    background-color: cadetblue;
+    border-radius: 30px;
+    padding: 5px 25px;
+    border: 1px solid cadetblue;
+}
+.part-lower{
+    display: grid;
+    grid-template-columns: 40% 20% 20% 20%;
+    color: white;
+    box-shadow: 2px 5px 10px rgba(150, 150, 150, 0.5);
+    padding-top: 20px;
+}
+.part-lower li{
+    list-style: none;
+    font-size: 14px;
+}
+.part-lower h6{
+    color: #FFF;
+    margin-bottom: 10px;
 }
