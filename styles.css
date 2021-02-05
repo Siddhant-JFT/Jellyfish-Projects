@@ -57,3 +57,20 @@
     margin-right: 10px;
     color: rgb(30, 209, 209);
 }
+.button-flexed{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-gap: 10px;
+}
+.button-flexed button{
+    border: 1px solid #999;
+    color: #999;
+    background-color: transparent;
+    padding: 10px 20px;
+}
+.button-flexed button:hover{
+    border-color: white;
+    color: white;
+    background-color: black;
+    transition: all 0.5s ease;
+}
