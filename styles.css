@@ -1,3 +1,6 @@
+*{
+    font-family: 'Coming Soon', cursive;
+}
 #section-2{
     width: 80%;
     margin: auto;
@@ -73,4 +76,16 @@
     color: white;
     background-color: black;
     transition: all 0.5s ease;
+}
+.btn-blue{
+    padding: 5px 20px;
+    border-radius: 50px;
+    background-color: cadetblue;
+    color: #FFF;
+    border: 1px solid cadetblue;
+}
+.customer{
+    margin-top: 10px;
+    padding: 30px 20px 0 20px;
+    border: 1px solid #999;
 }
